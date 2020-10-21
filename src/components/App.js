@@ -5,9 +5,9 @@ class App extends Component {
     render() {
         let  relatives=["p1","p2","p3","p4"];
         return(
-          <>
+           <>
             <ol key="relativeList">
-                {this.relatives.map((relative,index)=>(
+                {relatives.map((relative,index)=>(
                 <li key={"relativeListItem"+(index+1)}>{relative}</li>
                 ))}
 	        <ol/>
